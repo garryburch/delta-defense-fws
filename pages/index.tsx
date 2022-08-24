@@ -11,12 +11,12 @@ const Home: NextPage = () => {
 
   const timelineHeight = () => {  // Arrow function to find height of various elements for timeline cards
 
-    const secondCard = document.getElementById('card-2')
+    const firstCard = document.getElementById('card-0')
     const lastCard = document.getElementById('card-4')
     const cardsLine = document.getElementById('cardsLine')
 
-    if (secondCard != null && cardsLine != null) {
-      const offsetHeight = secondCard.offsetHeight
+    if (firstCard != null && cardsLine != null) {
+      const offsetHeight = firstCard.offsetHeight
       cardsLine.style.top = (offsetHeight / 2) + 3 + 'px'
     }
 
