@@ -1,0 +1,67 @@
+/* variables.scss */
+
+// Colors
+$uranus-darkside: #0458a7;
+$white: #ffffff;
+$mono-5: #444546;
+$mono-3-5: #9ea1a3;
+$mono-2: #ebeced;
+$gray-44: #707070;
+$uranus-link: #0a89ff;
+$uranus: #0074e0;
+$mars: #9c231f;
+$mono-1: #f7f7f8;
+$sun: #b88e33;
+$mono: #121212;
+$mono-4: #747678;
+$mono-6: #232324;
+$mono-3: #cbced1;
+
+// Custom break point (Min)
+$min-2140: 2140px;
+$min-1800: 1800px;
+$min-1440: 1440px;
+$min-1280: 1280px;
+$min-1200: 1200px;
+$min-1140: 1140px;
+$min-1080: 1080px;
+$min-1024: 1024px;
+$min-960: 960px;
+$min-840: 840px;
+$min-768: 768px;
+$min-720: 720px;
+$min-640: 640px;
+$min-600: 600px;
+$min-560: 560px;
+$min-540: 540px;
+$min-480: 480px;
+$min-420: 420px;
+$min-375: 375px;
+$min-360: 360px;
+
+// Custom break points (Max)
+$max-1440: 1439px;
+$max-1280: 1279px;
+$max-1200: 1199px;
+$max-1140: 1139px;
+$max-1080: 1079px;
+$max-1024: 1023px;
+$max-960: 959px;
+$max-840: 839px;
+$max-768: 767px;
+$max-720: 719px;
+$max-640: 639px;
+$max-600: 599px;
+$max-540: 539px;
+$max-480: 479px;
+$max-420: 419px;
+$max-375: 374px;
+$max-360: 359px;
+$max-340: 339px;
+
+// Predefined breakpoints
+$min-mobile: $min-420;
+$min-tablet: $min-840;
+$max-tablet: $max-840;
+$min-desktop: $min-1080;
+$min-xl: $min-1440;
