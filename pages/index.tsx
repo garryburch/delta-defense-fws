@@ -11,8 +11,11 @@ const Home: NextPage = () => {
 
   const timelineHeight = () => {  // Arrow function to find height of various elements for timeline cards
 
+    const arrInfo = Data && Data.cards
+    const lastItem = arrInfo.length - 1
+
     const firstCard = document.getElementById('card-0')
-    const lastCard = document.getElementById('card-4')
+    const lastCard = document.getElementById('card-' + lastItem)
     const cardsLine = document.getElementById('cardsLine')
 
     if (firstCard != null && cardsLine != null) {
