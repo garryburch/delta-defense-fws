@@ -34,7 +34,7 @@ const Home: NextPage = () => {
     timelineHeight(); // Call timelineHeight to run only once on page load
 
     window.addEventListener("load", function () { // EventListener for window resize
-      window.dispatchEvent(new Event('resize'));
+      window.dispatchEvent(new Event('resize'))
     });
 
     return () => {
