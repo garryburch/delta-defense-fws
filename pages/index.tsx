@@ -14,18 +14,18 @@ const Home: NextPage = () => {
     const arrInfo = Data && Data.cards
     const lastItem = arrInfo.length - 1
 
+    const cardsLine = document.getElementById('cardsLine')
     const firstCard = document.getElementById('card-0')
     const lastCard = document.getElementById('card-' + lastItem)
-    const cardsLine = document.getElementById('cardsLine')
 
-    if (firstCard != null && cardsLine != null) {
-      const offsetHeight = firstCard.offsetHeight
-      cardsLine.style.top = (offsetHeight / 2) + 3 + 'px'
-    }
+    if (cardsLine != null && firstCard != null && lastCard != null) {
 
-    if (lastCard != null && cardsLine != null) {
-      const offsetHeight = lastCard.offsetHeight
-      cardsLine.style.bottom = (offsetHeight / 2) + 3 + 'px'
+      const offsetHeightTop = firstCard.offsetHeight
+      cardsLine.style.top = (offsetHeightTop / 2) + 3 + 'px'
+      
+      const offsetHeightBottom = lastCard.offsetHeight
+      cardsLine.style.bottom = (offsetHeightBottom / 2) + 3 + 'px'
+      
     }
   }
 
